@@ -1,6 +1,6 @@
 # httpclient Set-Cookie
 
-[Back](../README.md)
+[Back to Table Of Contents](../README.md)
 
 Problem:
 
@@ -29,4 +29,4 @@ There are some weaknesses that need to be addressed still:
 - What if the `client` will make requests to a different domain? We have to ensure we don't leak cookies set by one domain to another domain.
 - What if the server is sending us new values for cookies that are already set on the `client`? One could argue that a `SessionId` might change, your `client` can get migrated to a different back end server with the use of a `ServerAffinity` cookie, etc.
 
-[Back](../README.md)
+[Back to Table of Contents](../README.md)
