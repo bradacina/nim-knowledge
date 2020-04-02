@@ -17,6 +17,7 @@ proc monitor(procName:string) =
     addHandler(logger)
     discard stderr.reopen("monitor.error.log", fmAppend)
 
+    #monitor loop
     while true:
         if process.isNil or not process.running:
             info "starting monitored process"
