@@ -1,4 +1,4 @@
-# Home grown Process Monitor
+# Homegrown Process Monitor
 
 [Back to Table of Contents](../Readme.md)
 
